@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    height: 140vh;
+}
+
+#description {
+    padding-top: 40px;
+}
