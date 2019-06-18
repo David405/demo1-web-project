@@ -20,8 +20,51 @@
             <label id="number-label">*Age:</label>
             <input type="number" id="number" placeholder="Age"min="18" max="99" required>
             <br><br>
-            <input type="submit" value="Submit">
-          </form> 
+            <label>Which option best describes your current role?</label>
+            <select id="dropdown" placeholder="Student">
+              <option value="student">Student</option>
+              <option value="fulltime">Full time job</option>
+              <option value="learner">Full time learner</option>
+              <option value="prefernottotell">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+            <br><br>
+             <label>How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+              <input type="radio" name="opinion" value="definitely" > Definitely<br>
+              <input type="radio" name="opinion" value="maybe"> Maybe<br>
+              <input type="radio" name="opinion" value="notsure"> Not sure<br><br>
+              <label>What do you like most in FCC:</label>
+            <select id="opinion-selection">
+              <option value="">Select an Opinion</option>
+              <option value="student">Challenges</option>
+              <option value="fulltime">Projects</option>
+              <option value="learner">Community</option>
+              <option value="prefernottotell">Open Source</option><br><br>
+              <label>Things that should be improved in the future
+              (Check all that apply):
+              </label>
+              <input type="checkbox" name="projectType" value="1">Front-end Projects<br>
+              <input type="checkbox" name="projectType"value="2">Back-end Projects <br>
+              <input type="checkbox" name="projecType"value="3">Data Visualization<br>
+              <input type="checkbox" name="projecType"value="4">Challenges<br>
+              <input type="checkbox" name="projecType"value="5">Open Source<br>
+              <input type="checkbox" name="projecType"value="6">Gitter help rooms<br>
+              <input type="checkbox" name="projecType"value="7">Videos<br>
+              <input type="checkbox" name="projecType"value="8">City Meetups<br>
+              <input type="checkbox" name="projecType"value="9">Wiki<br>
+              <input type="checkbox" name="projecType"value="10">Forum<br>
+              <input type="checkbox" name="projecType"value="11">Additional Courses<br>
+
+            </select><br><br>
+            <label id="comment">Any Comments or Suggestions?</label>
+            <textarea id="commentArea" placeholder="Enter your comment here"></textarea> 
+            <br><br>
+            <input type="submit" id="submit" value="Submit">
+
+            </form>
+
+            
+           
       </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
