@@ -1,15 +1,42 @@
 body {
     background-color: aqua;
+}
+
+#title {
     text-align: center;
 }
 
-.form {
+.container {
     margin: auto;
     width: 50%;
     background-color: white;
     height: 140vh;
 }
 
+.form {
+    padding-left: 300px;
+}
+
 #description {
     padding-top: 40px;
+    text-align: center;
 }
+
+.role {
+    display: block;
+}
+
+.button {
+    background-color: #0d98ba ; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
